@@ -5,6 +5,7 @@ public class Program {
         System.out.println("Hello World!!!");
         System.out.println("E ");
         System.out.println("edit 3");
-        System.out.println("L ");
+        
+        System.out.println("stash change");
     }
 }
