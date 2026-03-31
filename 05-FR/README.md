@@ -50,7 +50,8 @@ A person intending to purchase a product at an auction..
 
 [Seller](#ac1):
 * [UC1](#uc1): Offering a product at an auction
-* ...
+* [UC4](#uc4): Editing product/auction details
+* [UC5](#uc5): Canceling an active auction
 
 [Buyer](#ac2):
 * [UC2](#uc2): Bidding at an auction
