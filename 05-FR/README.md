@@ -108,6 +108,13 @@ The auction is a form of concluding a sale and purchase transaction in which the
 
 A physical or digital item to be auctioned.
 
+<a id="bo3"></a>
+### BO3: Bid
+
+An amount of money offered by a [Buyer](#ac2) to buy a [Product](#bo2) in an [Auction](#bo1).
+
+Auction is won by [Buyer](#ac2) who submitted the highest bid before the end of the auction (time expires).
+
 ## Business rules
 
 <a id="br1"></a>
@@ -117,13 +124,6 @@ Bidding at auction requires submitting an amount higher than current by a minimu
 
 <a id="br2"></a>
 ### BR2: Winning an auction
-
-<a id="bo3"></a>
-### BO3: Bid
-
-An amount of money offered by a [Buyer](#ac2) to buy a [Product](#bo2) in an [Auction](#bo1).
-
-Auction is won by [Buyer](#ac2) who submitted the highest bid before the end of the auction (time expires).
 
 
 ## CRUDL Matrix
