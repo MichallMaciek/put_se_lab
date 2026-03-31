@@ -129,8 +129,10 @@ Bidding at auction requires submitting an amount higher than current by a minimu
 ## CRUDL Matrix
 
 
-| Use case                                  | Auction | Product | ... |
+| Use case                                  | Auction | Product | Bid |
 | ----------------------------------------- | ------- | ------- | --- |
-| UC1: Offering a product at an auction     |    C    |    C    | ... |
-| ???                                       |   ...   |   ...   | ... |
-
+| UC1: Offering a product at an auction     |    C    |    C    |     |
+| UC2: Placing a bid                        |    R    |    R    |  C  |
+| UC3: Paying for the won item              |    R    |    R    |  R  |
+| UC4: Editing auction details              |    U    |    U    |     |
+| UC5: Canceling an auction                 |    D    |    D    |  D  |
