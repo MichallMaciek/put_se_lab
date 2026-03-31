@@ -79,17 +79,22 @@ A person intending to purchase a product at an auction..
 ---
 
 <a id="uc2"></a>
-### UC2: ...
+### UC2: Placing a bid
 
-**Actors:** [Seller](#ac1), [Buyer](#ac2), ...
+**Actors:** [Seller](#ac1), [Buyer](#ac2)
 
 **Main scenario:**
-1. ...
+1. [Buyer](#ac2) chooses to bid on the selected [Auction](#bo1).
+2. System displays the current highest bid and prompts for a new bid amount.
+3. [Buyer](#ac2) enters their bid amount.
+4. System checks if the new bid is high enough ([BR1](#br1)).
+5. System saves the [Bid](#bo3) and updates the auction's current price.
+6. System confirms to the [Buyer](#ac2) that the bid was accepted.
+7. System sends a notification to the [Seller](#ac1) about the new highest bid.
 
-**Alternative scenarios:** 
-
-1.A. ...
-* 4.A.1. ...
+**Alternative scenarios:** 4.A. The entered amount is too low.
+* 4.A.1. System displays an error message explaining the minimum bid rule ([BR1](#br1)).
+* 4.A.2. Continue at step 2.
 
 ---
 
