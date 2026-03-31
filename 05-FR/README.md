@@ -118,6 +118,11 @@ Bidding at auction requires submitting an amount higher than current by a minimu
 <a id="br2"></a>
 ### BR2: Winning an auction
 
+<a id="bo3"></a>
+### BO3: Bid
+
+An amount of money offered by a [Buyer](#ac2) to buy a [Product](#bo2) in an [Auction](#bo1).
+
 Auction is won by [Buyer](#ac2) who submitted the highest bid before the end of the auction (time expires).
 
 
