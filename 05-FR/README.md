@@ -41,7 +41,7 @@ A person offering goods at an auction.
 <a id="ac2"></a>
 ### AC2: Buyer
 
-A person intending to purchase a product at an auction..
+A person intending to purchase a product at an auction.
 
 
 ## User level use cases
@@ -56,7 +56,7 @@ A person intending to purchase a product at an auction..
 [Buyer](#ac2):
 * [UC2](#uc2): Bidding at an auction
 * [UC3](#uc3): Paying for a won auction
-
+* [UC6](#uc6): Searching for auctions
 ---
 <a id="uc1"></a>
 ### UC1: Offering a product at an auction
@@ -136,3 +136,4 @@ Bidding at auction requires submitting an amount higher than current by a minimu
 | UC3: Paying for the won item              |    R    |    R    |  R  |
 | UC4: Editing auction details              |    U    |    U    |     |
 | UC5: Canceling an auction                 |    D    |    D    |  D  |
+| UC6: Searching for auctions               |    L    |    L    |     |
