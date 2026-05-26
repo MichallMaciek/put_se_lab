@@ -1,0 +1,81 @@
+The following information shall be provided in the individual fields of the template:
+	•	Identifier - unique identifier of the test, e.g. AT01
+	•	Title – the title of the test case, which should define the purpose of the test, e.g. logging in as an existing user.
+	•	Preconditions - a list of conditions that define the state of the system before starting the acceptance test, e.g. the user is logged in.
+	•	Test scenario:
+	•	Action - describe the action to be performed by the tester, e.g. enter the name "John" in the field,
+	•	Expected result - describe what should be the correct reaction of the system after performing the action. The discrepancy between the expected result and the actual system response recorded means a system malfunction.
+
+AT01: Successful user registration
+Preconditions:
+	•	What conditions must be met before the test can be performed? For example, what data must be in the system?
+
+Test scenario:
+
+Action
+Expected result
+Execution correctness
+Open the URL: http://localhost:8080/accounts/controller?action=db_reset in Chrome browser.
+The application loads and the database is cleared.
+PASS
+FAIL
+Click the "Register" option located in the main menu on the left-hand side.
+The system presents the registration form.
+PASS
+FAIL
+Fill in the registration form with valid data:
+
+- Username: user123
+
+- Password: password
+
+- Repeat Password: password
+
+- Name: John Doe
+
+- Address: 10 New St.
+
+The data is visible in the appropriate form fields.
+PASS
+FAIL
+Click the "Register" (or Submit) button.
+The system creates a new account and displays the login form.
+PASS
+FAIL
+
+AT02: Failed registration attempt after providing Failed registration attempt after providing mismatched passwords
+Preconditions:
+	•	he user is not logged in. The database has been cleared.
+Test scenario:
+
+Action
+Expected result
+Execution correctness
+Open the URL: http://localhost:8080/accounts/controller?action=db_reset in Chrome browser.
+The application loads and the database is cleared.
+PASS
+FAIL
+Click the "Register" option located in the main menu on the left-hand side.
+The system presents the registration form.
+PASS
+FAIL
+Fill in the registration form with mismatched passwords:
+
+- Username: user123
+
+- Password: password
+
+- Repeat Password: wrongpassword
+
+- Name: John Doe
+
+- Address: 10 New St.
+
+The data is visible in the appropriate form fields.
+PASS
+FAIL
+
+Click the "Register" (or Submit) button.
+The system informs that "Passwords don't match!" and returns the user to the registration form.
+PASS
+FAIL
