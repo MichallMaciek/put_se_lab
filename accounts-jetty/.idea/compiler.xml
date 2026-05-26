@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jetty-rewrite-handler" />
+        <module name="jetty-plus" />
+        <module name="jetty-ant" />
+        <module name="jetty-test-jaas" />
+        <module name="jetty-ajp" />
+        <module name="jetty-servlet-tester" />
+        <module name="jetty-sslengine" />
+        <module name="jetty-spring" />
+        <module name="cometd-client" />
+        <module name="jetty-java5-threadpool" />
+        <module name="jetty-test" />
+        <module name="jsp-api-2.1" />
+        <module name="jetty-html" />
+        <module name="jetty-client" />
+        <module name="jetty-annotations" />
+        <module name="jsp-api-2.0" />
+        <module name="maven-jetty-plugin" />
+        <module name="maven-jetty-jspc-plugin" />
+        <module name="jetty" />
+        <module name="jetty-win32-service-java" />
+        <module name="jetty-xbean" />
+        <module name="jetty-setuid-java" />
+        <module name="jetty-management" />
+        <module name="jetty-embedded" />
+        <module name="extratests" />
+        <module name="jetty-test-jndi" />
+        <module name="start" />
+        <module name="jetty-terracotta-sessions" />
+        <module name="libsetuid" />
+        <module name="cometd-jetty" />
+        <module name="servlet-api-2.5" />
+        <module name="jetty-naming" />
+        <module name="jetty-util5" />
+        <module name="jsp-2.1" />
+        <module name="jetty-util" />
+        <module name="cometd-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
